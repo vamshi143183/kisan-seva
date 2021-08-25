@@ -1,0 +1,17 @@
+#vam{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.vasu{
+    padding:20px ;
+    margin: 0px;
+    background-color: chocolate;
+    color:white;
+}
+img:hover{
+    width: 410px;
+    border: 2px solid rgb(230, 192, 41);
+    transform:scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06) 
+}

@@ -1,0 +1,39 @@
+
+
+body{
+    background: rgb(206, 137, 137);
+}
+.container{
+    background: url(../../assets/pvk-img/Soil-testing-tips-for-the-perfect-fertilizer-application-e1569355003270.jpeg) no-repeat center;
+    background-size: cover;
+
+}
+
+.soil-test{
+   text-decoration: underline;
+   color: yellow;
+   
+}   
+   
+.btn-soil{
+    text-align: center;
+
+
+    
+}
+.soil-btn{
+    background: rgb(4, 1, 190);
+    width: 20vw;
+    padding: 12px;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: 600;
+    border: 1px hidden black;
+}
+.soil-text{
+    color:white;
+}
+.soil-btn>a{
+    color: white;
+    
+}

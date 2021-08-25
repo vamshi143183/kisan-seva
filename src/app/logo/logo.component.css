@@ -1,0 +1,24 @@
+.h{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color:teal;
+}
+.sai{
+    padding: 10px;
+    margin: 10px;
+    background-color:coral;
+    color: white;
+}
+.myimg{ 
+    
+    width:70%; 
+    height: 90vh; 
+    position: relative; 
+   left:15%; 
+} 
+.mar{
+    padding: 5px;
+    margin: 5px;
+
+}

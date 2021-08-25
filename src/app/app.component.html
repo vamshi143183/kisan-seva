@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2 id="kisan">kisan seva</h2> 
+  <nav class="navbar navbar-expand-md bg-warning navbar-warning bar">
+    <!-- Brand -->
+    <div class="sec">
+      <a class="navbar-brand" href="#"><i class="fas fa-align-justify"></i></a>
+  
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+  
+      <nav class="navbar navbar-expand-sm bg-warning navbar-warning">
+              <!---------Logo  Brand----- -->
+          <a class="navbar-brand" routerLink='/logo'>
+            <img src="assets/pvk kisan img/logo-4.jpg" alt="no img" class="rounded-circle" height="30px" width="40px"><span>Logo</span></a>
+        
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" routerLink='/home'><i class="fas fa-home"></i>Home</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" routerLink='/products' id="navbardrop" data-toggle="dropdown"><i class="fab fa-creative-commons-by"></i>
+                products
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" routerLink='products/seeds'>Seeds</a>
+                <a class="dropdown-item" routerLink='products/pesticides'>Pesticides</a>
+                <a class="dropdown-item" routerLink='products/fertilizers'>Fertilizers</a>
+                <a class="dropdown-item" routerLink='products/pumps'>Pumps</a>
+                <a class="dropdown-item" routerLink='products/motors'>Motors</a>
+                <a class="dropdown-item" routerLink='products/harvestingmachinery'>Harvestingmachinery</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink='/details'><i class="fas fa-id-badge"></i>Details</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" routerLink='/contactus'><i class="fab fa-rocketchat"></i>Contact us</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+
+    <!---------------soil test-------------->
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink='/soiltest'><span class="glyphicon glyphicon-log-in"></span><i class="fas fa-vial"></i>Soil test</a></li>
+    </ul>
+            <!--------Login right------- -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink='/login'><span class="glyphicon glyphicon-log-in"></span><i class="fas fa-sign-in-alt"></i>Login</a></li>
+    </ul>
+    </nav><br>
+     
+    <!----------search------->
+   <div class="input-group mb-3 w-50 mx-auto" >
+      <input type="text" class="form-control" placeholder="Search">
+      <div class="input-group-append">
+      <button class="btn btn-success" type="button">search</button>
+      </div>
+   </div>
+   
+  
+<router-outlet></router-outlet>
+
+</body>
+<div>
+  <app-footer></app-footer>
+</div>
+</html>

@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:15px;
+}
+#item-image{
+    width:19vw;
+    height:33vh;
+    padding:10px;
+}
